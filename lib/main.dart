@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     width: 50,
                     height: 50,
-                    color: Colors.red.shade300,
+                    color: Colors.green.shade300,
                   ),
                   Row(
                     children: [
@@ -49,7 +49,8 @@ class MyApp extends StatelessWidget {
               ),
               const Text(
                 "the long wait is over",
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Colors.white,fontSize: 20),
+                
               ),
               const Text(
                 "New Collection",
